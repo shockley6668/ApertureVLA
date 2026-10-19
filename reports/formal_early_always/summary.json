@@ -1,0 +1,36 @@
+{
+  "report_count": 4,
+  "total_episodes": 2000,
+  "total_successes": 1893,
+  "overall_success_rate": 0.9465,
+  "results": [
+    {
+      "file": "libero_10_10tasks_50trials.json",
+      "suite": "libero_10",
+      "episodes": 500,
+      "successes": 455,
+      "success_rate": 0.91
+    },
+    {
+      "file": "libero_goal_10tasks_50trials.json",
+      "suite": "libero_goal",
+      "episodes": 500,
+      "successes": 483,
+      "success_rate": 0.966
+    },
+    {
+      "file": "libero_object_10tasks_50trials.json",
+      "suite": "libero_object",
+      "episodes": 500,
+      "successes": 487,
+      "success_rate": 0.974
+    },
+    {
+      "file": "libero_spatial_10tasks_50trials.json",
+      "suite": "libero_spatial",
+      "episodes": 500,
+      "successes": 468,
+      "success_rate": 0.936
+    }
+  ]
+}

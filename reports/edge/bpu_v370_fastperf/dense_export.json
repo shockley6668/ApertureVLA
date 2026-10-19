@@ -1,0 +1,25 @@
+{
+  "evidence": "instruction_baked_onnx_export_v1",
+  "instruction": "put both the alphabet soup and the cream cheese box in the basket",
+  "checkpoint_sha256": "172b1d38cc29b6478b4487eb4de414313538a3a8adfdcf9246c7f02bb1e5fded",
+  "onnx_sha256": "b66ffe78122ab1d2c6b0f135614801080757467fe3c56046aaf1feb1adc2af12",
+  "opset": 17,
+  "inputs": {
+    "camera_views": [
+      2,
+      3,
+      256,
+      256
+    ],
+    "normalized_state": [
+      1,
+      8
+    ]
+  },
+  "samples_checked": [
+    0,
+    71
+  ],
+  "max_abs_onnx_vs_native_forward": 7.450580596923828e-07,
+  "onnxruntime_graph_optimization": "disabled"
+}
